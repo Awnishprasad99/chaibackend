@@ -45,7 +45,7 @@ const github = {
 
 
 app.get('/github',(req,res)=>{
-    res.send(github)
+    res.json(github)
 })
 app.get("/", (req, res) => {
   res.send("hello there");
